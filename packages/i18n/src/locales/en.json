@@ -1,0 +1,38 @@
+{
+  "common": {
+    "appName": "RN Base",
+    "loading": "Loading…",
+    "retry": "Try again",
+    "error": "Something went wrong"
+  },
+  "auth": {
+    "title": "Welcome back",
+    "subtitle": "Sign in to continue",
+    "username": "Username",
+    "password": "Password",
+    "submit": "Sign in",
+    "demoHint": "Demo account: emilys / emilyspass",
+    "invalid": "Wrong username or password"
+  },
+  "home": {
+    "title": "Products",
+    "greeting": "Hi, {{name}}",
+    "empty": "No products yet",
+    "loadMore": "Load more"
+  },
+  "settings": {
+    "title": "Settings",
+    "theme": "Theme",
+    "themeSystem": "System",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "language": "Language",
+    "signOut": "Sign out",
+    "environment": "Environment"
+  },
+  "landing": {
+    "headline": "One codebase setup for mobile and web",
+    "description": "Expo + Next.js monorepo with shared API, state and translations.",
+    "cta": "Open the app"
+  }
+}

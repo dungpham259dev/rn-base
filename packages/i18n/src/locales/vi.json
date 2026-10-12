@@ -1,0 +1,38 @@
+{
+  "common": {
+    "appName": "RN Base",
+    "loading": "Đang tải…",
+    "retry": "Thử lại",
+    "error": "Đã có lỗi xảy ra"
+  },
+  "auth": {
+    "title": "Chào mừng trở lại",
+    "subtitle": "Đăng nhập để tiếp tục",
+    "username": "Tên đăng nhập",
+    "password": "Mật khẩu",
+    "submit": "Đăng nhập",
+    "demoHint": "Tài khoản demo: emilys / emilyspass",
+    "invalid": "Sai tên đăng nhập hoặc mật khẩu"
+  },
+  "home": {
+    "title": "Sản phẩm",
+    "greeting": "Xin chào, {{name}}",
+    "empty": "Chưa có sản phẩm",
+    "loadMore": "Xem thêm"
+  },
+  "settings": {
+    "title": "Cài đặt",
+    "theme": "Giao diện",
+    "themeSystem": "Theo hệ thống",
+    "themeLight": "Sáng",
+    "themeDark": "Tối",
+    "language": "Ngôn ngữ",
+    "signOut": "Đăng xuất",
+    "environment": "Môi trường"
+  },
+  "landing": {
+    "headline": "Bộ khung dùng chung cho mobile và web",
+    "description": "Monorepo Expo + Next.js, dùng chung API, state và bản dịch.",
+    "cta": "Mở ứng dụng"
+  }
+}

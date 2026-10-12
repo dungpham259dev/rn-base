@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Web (development)",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "pnpm dev",
+      "cwd": "${workspaceFolder}/apps/web",
+      "skipFiles": ["<node_internals>/**"],
+      "sourceMaps": true
+    },
+    {
+      "name": "Mobile (development)",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "pnpm dev",
+      "cwd": "${workspaceFolder}/apps/mobile"
+    },
+    {
+      "name": "Mobile (staging)",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "pnpm dev:staging",
+      "cwd": "${workspaceFolder}/apps/mobile"
+    }
+  ]
+}
