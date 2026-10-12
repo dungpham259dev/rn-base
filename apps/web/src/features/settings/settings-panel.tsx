@@ -1,7 +1,6 @@
 "use client";
 
 import type { Language } from "@rnbase/i18n";
-import type { ThemeMode } from "@rnbase/ui/theme";
 import {
   LANGUAGE_LABELS,
   resolveLanguage,
@@ -9,9 +8,10 @@ import {
   useTranslation,
 } from "@rnbase/i18n";
 import { useSessionStore, useSettingsStore } from "@rnbase/store";
-import { Button } from "@rnbase/ui/button";
-import { useTheme } from "@rnbase/ui/theme";
 
+import type { ThemeMode } from "~/components/ui/theme";
+import { Button } from "~/components/ui/button";
+import { useTheme } from "~/components/ui/theme";
 import { queryClient } from "~/core/services";
 import { env } from "~/env";
 

@@ -3,7 +3,8 @@
 import Link from "next/link";
 
 import { useTranslation } from "@rnbase/i18n";
-import { Button } from "@rnbase/ui/button";
+
+import { Button } from "~/components/ui/button";
 
 export function LandingPage() {
   const { t } = useTranslation();

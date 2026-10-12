@@ -1,7 +1,8 @@
 "use client";
 
 import { useTranslation } from "@rnbase/i18n";
-import { Button } from "@rnbase/ui/button";
+
+import { Button } from "~/components/ui/button";
 
 export function LoadingView() {
   const { t } = useTranslation();

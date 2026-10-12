@@ -30,19 +30,19 @@ apps/
   web/               Next.js app
     src/app/         routes: / (landing), /login, (dashboard)/products, (dashboard)/settings
     src/features/    auth, products, settings, landing
+    src/components/  web UI kit (shadcn/ui in components/ui) + shared views
     src/core/        services, providers
 packages/
   api/               REST client, error mapping, zod schemas, endpoints, query hooks
   store/             Zustand stores (session, settings) with pluggable storage
   i18n/              i18next setup + locales/*.json
-  ui/                web UI kit (shadcn) + web theme provider
 tooling/             shared eslint, prettier, tailwind theme tokens, tsconfig
 ```
 
 Rules of thumb:
 
-- Anything both apps need without rendering (API calls, types, state, translations) lives in `packages/`.
-- UI lives in the app. Both apps share design tokens through `tooling/tailwind/theme.css`.
+- `packages/` holds only code both apps run: API calls, types, state, translations. Platform UI never goes there.
+- UI lives in the app (`apps/web/src/components/ui` for shadcn, `apps/mobile/src/components` for native). Both apps share design tokens through `tooling/tailwind/theme.css`.
 - Inside an app, code is grouped by feature. Route files stay thin and re-export a feature screen.
 - Server data goes through TanStack Query; Zustand only holds client state (session, preferences).
 

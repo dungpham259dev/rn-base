@@ -7,9 +7,10 @@ import { useRouter } from "next/navigation";
 import { ApiError, useLogin } from "@rnbase/api";
 import { useTranslation } from "@rnbase/i18n";
 import { useSessionStore } from "@rnbase/store";
-import { Button } from "@rnbase/ui/button";
-import { Input } from "@rnbase/ui/input";
-import { Label } from "@rnbase/ui/label";
+
+import { Button } from "~/components/ui/button";
+import { Input } from "~/components/ui/input";
+import { Label } from "~/components/ui/label";
 
 export function LoginForm() {
   const { t } = useTranslation();

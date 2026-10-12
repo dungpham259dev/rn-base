@@ -5,13 +5,13 @@
   "tsx": true,
   "tailwind": {
     "config": "",
-    "css": "unused.css",
+    "css": "src/app/styles.css",
     "baseColor": "zinc",
     "cssVariables": true
   },
   "aliases": {
-    "utils": "@rnbase/ui",
-    "components": "src/",
-    "ui": "src/"
+    "utils": "~/components/ui/utils",
+    "components": "~/components",
+    "ui": "~/components/ui"
   }
 }

@@ -5,7 +5,8 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 import { useTranslation } from "@rnbase/i18n";
-import { cn } from "@rnbase/ui";
+
+import { cn } from "~/components/ui/utils";
 
 const NAV_ITEMS = [
   { href: "/products", labelKey: "home.title" },

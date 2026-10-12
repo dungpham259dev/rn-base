@@ -6,9 +6,9 @@ import Link from "next/link";
 import { useProducts } from "@rnbase/api";
 import { useTranslation } from "@rnbase/i18n";
 import { useSessionStore } from "@rnbase/store";
-import { Button } from "@rnbase/ui/button";
 
 import { ErrorView, LoadingView } from "~/components/state-views";
+import { Button } from "~/components/ui/button";
 
 export function ProductList() {
   const { t } = useTranslation();

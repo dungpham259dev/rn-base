@@ -1,4 +1,4 @@
-import { cn } from "@rnbase/ui";
+import { cn } from "~/components/ui/utils";
 
 export function Input({
   className,
